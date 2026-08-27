@@ -71,13 +71,13 @@ form > input[type=submit]:hover {
     background-color: #2e6663;
 }
 
-.campo {
+div.campo {
     background-color: #5f2c82;
     padding: 3px;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
@@ -101,4 +101,34 @@ form a.botao:hover {
 }
 div.campo label {
     display: none;
+    
 }
+
+div.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+}
+
+div.campo input {
+    background-color: #57c0bd;
+    width: calc(100% - 44.5px);
+    border: none;
+    height: 40px;
+    outline: none;
+    border: 2px solid #5f2c82;
+    border-radius: 8px;
+    transform: translateY(-9px);
+    padding-left: 5px;
+    color: #57c0bd;
+}
+
+div.campo  input::placeholder {
+    color: #316967;
+}
+
+div#formulario p {
+    font-size: 0.9em;
+    margin: 20px 0px;
+}
+
